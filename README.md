@@ -29,10 +29,10 @@ Um sistema web para gerenciamento de produtos e pesos, com autenticação de usu
 
 ## 🌟 Destaques
 
--🔹 Mensagens Toast: Feedback visual para ações do usuário (sucesso, erro, etc.).
--🔹 Segurança: Sessões para autenticação e proteção de rotas.
--🔹 Design Intuitivo: Navegação simples e clara para o usuário.
--🔹 Código Modular: Fácil manutenção e expansão do sistema.
+- 🔹 Mensagens Toast: Feedback visual para ações do usuário (sucesso, erro, etc.).
+- 🔹 Segurança: Sessões para autenticação e proteção de rotas.
+- 🔹 Design Intuitivo: Navegação simples e clara para o usuário.
+- 🔹 Código Modular: Fácil manutenção e expansão do sistema.
 
 <div align="center"> <p>Feito por <a href="https://github.com/JohnReiiss">John Reis</a></p> <p>🔗 <strong>Link do projeto</strong>: <a href="https://github.com/JohnReiiss/Sistema-PD-Automatizado/tree/main">github.com/JohnReiiss/Sistema-PD-Automatizado</a></p> </div>
 
