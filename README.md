@@ -76,10 +76,9 @@ php -S localhost:8000
 
 ## 📌 Demonstração em Vídeo
 
-<video controls width="100%">
-  <source src="src/video/secreenrecord-pd-automatizado.mp4" type="video/mp4">
-  Seu navegador não suporta a reprodução de vídeos.
-</video>
+## 📌 Demonstração em Vídeo
+
+[🎥 Clique aqui para assistir ao vídeo](src/video/secreenrecord-pd-automatizado.mp4)
 
 ## Contato
 Se quiser saber mais sobre meu trabalho ou discutir oportunidades, entre em contato:
