@@ -76,8 +76,6 @@ php -S localhost:8000
 
 ## 📌 Demonstração em Vídeo
 
-## 📌 Demonstração em Vídeo
-
 [🎥 Clique aqui para assistir ao vídeo](src/video/secreenrecord-pd-automatizado.mp4)
 
 ## Contato
