@@ -77,7 +77,7 @@ php -S localhost:8000
 ## 📌 Demonstração em Vídeo
 
 <video controls width="100%">
-  <source src="src/videos/screenrecord-pd-automatizado.mp4" type="video/mp4">
+  <source src="src/video/screenrecord-pd-automatizado.mp4" type="video/mp4">
   Seu navegador não suporta a reprodução de vídeos.
 </video>
 
