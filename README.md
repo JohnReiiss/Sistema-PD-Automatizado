@@ -6,11 +6,11 @@ Um sistema web para gerenciamento de produtos e pesos, com autenticação de usu
 
 ## ✨ Funcionalidades
 
-✅ Autenticação de Usuários: Login e registro com validação de credenciais.
-✅ Cadastro de Produtos: Inserção de novos produtos com informações detalhadas.
-✅ Edição de Produtos: Atualização de dados de produtos já cadastrados.
-✅ Busca de Produtos: Pesquisa rápida e eficiente por nome do produto.
-✅ Interface Responsiva: Design adaptado para diferentes dispositivos.
+- ✅ Autenticação de Usuários: Login e registro com validação de credenciais.
+- ✅ Cadastro de Produtos: Inserção de novos produtos com informações detalhadas.
+- ✅ Edição de Produtos: Atualização de dados de produtos já cadastrados.
+- ✅ Busca de Produtos: Pesquisa rápida e eficiente por nome do produto.
+- ✅ Interface Responsiva: Design adaptado para diferentes dispositivos.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -29,10 +29,10 @@ Um sistema web para gerenciamento de produtos e pesos, com autenticação de usu
 
 ## 🌟 Destaques
 
-🔹 Mensagens Toast: Feedback visual para ações do usuário (sucesso, erro, etc.).
-🔹 Segurança: Sessões para autenticação e proteção de rotas.
-🔹 Design Intuitivo: Navegação simples e clara para o usuário.
-🔹 Código Modular: Fácil manutenção e expansão do sistema.
+-🔹 Mensagens Toast: Feedback visual para ações do usuário (sucesso, erro, etc.).
+-🔹 Segurança: Sessões para autenticação e proteção de rotas.
+-🔹 Design Intuitivo: Navegação simples e clara para o usuário.
+-🔹 Código Modular: Fácil manutenção e expansão do sistema.
 
 <div align="center"> <p>Feito por <a href="https://github.com/JohnReiiss">John Reis</a></p> <p>🔗 <strong>Link do projeto</strong>: <a href="https://github.com/JohnReiiss/Sistema-PD-Automatizado/tree/main">github.com/JohnReiiss/Sistema-PD-Automatizado</a></p> </div>
 
