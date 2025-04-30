@@ -34,7 +34,7 @@ Um sistema web para gerenciamento de produtos e pesos, com autenticação de usu
 - 🔹 Design Intuitivo: Navegação simples e clara para o usuário.
 - 🔹 Código Modular: Fácil manutenção e expansão do sistema.
 
-<div align="center"> <p>Feito por <a href="https://github.com/JohnReiiss">John Reis</a></p> <p>🔗 <strong>Link do projeto</strong>: <a href="https://github.com/JohnReiiss/Sistema-PD-Automatizado/tree/main">github.com/JohnReiiss/Sistema-PD-Automatizado</a></p> </div>
+<div align="center"> <p>Acesse aqui o video de demonstração <a href="https://github.com/JohnReiiss">John Reis</a></p> <p>🔗 <strong>Link do projeto</strong>: <a href="https://github.com/JohnReiiss/Sistema-PD-Automatizado/tree/main">github.com/JohnReiiss/Sistema-PD-Automatizado</a></p> </div>
 
 ## 🚀 Como Usar
 
