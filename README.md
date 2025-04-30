@@ -76,7 +76,7 @@ php -S localhost:8000
 
 ## 📌 Demonstração em Vídeo
 
-<div align="center"> <p>Feito por <a href="https://drive.google.com/file/d/1jtanektCOc994FzcZZSfOEBqVeFI_bG3/view?usp=drivesdk">🎥 Clique aqui para assistir ao vídeo</a></p> </div>
+<div align="center"> <p>Acesse aqui o vídeo de demonstração <a href="https://drive.google.com/file/d/1jtanektCOc994FzcZZSfOEBqVeFI_bG3/view?usp=drivesdk">🎥 Clique aqui para assistir ao vídeo</a></p> </div>
 
 ## Contato
 Se quiser saber mais sobre meu trabalho ou discutir oportunidades, entre em contato:
