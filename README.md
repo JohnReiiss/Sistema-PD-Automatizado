@@ -23,7 +23,7 @@ Um sistema web para gerenciamento de produtos e pesos, com autenticação de usu
 
 ## 🎨 Design
 
-- 🎨 **Cores modernas**: `#000000` como primária
+- 🎨 **Cores modernas**: `linear-gradient(135deg, #3f4fa7, #1c03fa);` lindo gradiente de cores lilás e azul
 - 🔲 **Bordas arredondadas**: `border-radius: 24px`
 - 📐 **Espaçamento consistente**: Hierarquia visual clara
 
