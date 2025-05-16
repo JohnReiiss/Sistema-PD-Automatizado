@@ -82,7 +82,7 @@ php -S localhost:8000
 Se quiser saber mais sobre meu trabalho ou discutir oportunidades, entre em contato:
 
 - **E-mail:** johnatan.reiiss@icloud.com
-- **LinkedIn:** [linkedin.com/in/johnatan-hayabusa](https://www.linkedin.com/in/johnatan-hayabusa)
+- **LinkedIn:** [linkedin.com/in/johnatan-hayabusa](https://www.linkedin.com/in/johnatan-dos-santos-reis-945092b7/)
 - **GitHub:** [github.com/JohnReiiss](https://github.com/JohnReiiss)
 
 Obrigado por visitar este repositório! Espero que goste do projeto. 🚀
