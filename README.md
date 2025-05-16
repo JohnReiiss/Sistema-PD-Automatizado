@@ -78,11 +78,13 @@ php -S localhost:8000
 
 <div align="center"> <p>Acesse aqui o vídeo de demonstração <a href="https://drive.google.com/file/d/1jtanektCOc994FzcZZSfOEBqVeFI_bG3/view?usp=drivesdk">🎥 Clique aqui para assistir ao vídeo</a></p> </div>
 
-## Contato
-Se quiser saber mais sobre meu trabalho ou discutir oportunidades, entre em contato:
+## ✉️ Contato
 
+- **Desenvolvedor**: [Johnatan dos Santos Reis]  
 - **E-mail:** johnatan.reiiss@icloud.com
 - **LinkedIn:** [linkedin.com/in/johnatan-hayabusa](https://www.linkedin.com/in/johnatan-dos-santos-reis-945092b7/)
-- **GitHub:** [github.com/JohnReiiss](https://github.com/JohnReiiss)
+- **GitHub:** [github.com/JohnReiiss](https://github.com/JohnReiiss)  
+
+---
 
 Obrigado por visitar este repositório! Espero que goste do projeto. 🚀
