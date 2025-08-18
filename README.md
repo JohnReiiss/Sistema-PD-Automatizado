@@ -32,6 +32,37 @@ O sistema monolítico original foi dividido em duas partes independentes:
 - ✅ **Hashing Progressivo:** Um mecanismo de segurança que atualiza senhas antigas (em texto plano) para o formato de hash moderno de forma automática e transparente no primeiro login bem-sucedido do usuário.
 - ✅ **Interface de Usuário Reativa:** Construída com JavaScript moderno (`async/await`, `fetch`), com componentes reutilizáveis, animações e feedback visual através de alertas modernos (SweetAlert2).
 
+## 🧱 Estrutura do Projeto
+
+A arquitetura do projeto foi desenhada para uma clara separação de responsabilidades entre o `back-end` (a API que contém a lógica) e o `front-end` (a interface com o usuário).
+
+Com certeza. Esse formato de árvore de texto é ótimo para documentação.
+
+Aqui está a estrutura do nosso projeto, formatada exatamente como você pediu, pronta para ser copiada.
+
+```
+.
+├── back-end/
+│   ├── controllers/
+│   ├── models/
+│   ├── config/
+│   ├── vendor/
+│   ├── .env
+│   └── api.php
+├── front-end/
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── includes/
+│   ├── index.php
+│   ├── login.php
+│   └── ... (outras páginas)
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
 ## 🛠️ Pilha de Tecnologias (Tech Stack)
 
 #### Back-end
