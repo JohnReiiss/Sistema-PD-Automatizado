@@ -1,0 +1,37 @@
+/* Reset and Universal Box Model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Main style for the application */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e1e1e9;
+  color: #333;
+  margin: 0;
+  padding-top: 80px;
+}
+
+/* --- Main Content --- */
+main {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* --- Additional Z-Index Configuration for SweetAlert2 --- */
+.swal2-container {
+  z-index: 3000 !important;
+}
+
+/* Generic fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
