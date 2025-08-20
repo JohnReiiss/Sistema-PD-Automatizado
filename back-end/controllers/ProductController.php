@@ -110,7 +110,7 @@ class ProductController {
             return;
         }
         
-        if ($user['role'] !== 'ADMINISTRADOR') {
+        if (!in_array($user['role'], ['ADMINISTRADOR', 'HOKAGE'])) {
             http_response_code(403);
             echo json_encode(["message" => "Seu nível de acesso não te permite essa ação!"]);
             return;
@@ -145,7 +145,7 @@ class ProductController {
 
     public function deleteProduct() {
         $user = $this->getAuthenticatedUser();
-        if (!$user || $user['role'] !== 'ADMINISTRADOR') {
+        if (!$user || !in_array($user['role'], ['ADMINISTRADOR', 'HOKAGE'])) {
             http_response_code(403);
             echo json_encode(["message" => "Ação não permitida."]);
             return;
