@@ -48,9 +48,12 @@ class UserController {
             echo json_encode(["message" => "Usuário não encontrado."]);
         }
     }
-    
+
+    // Endpoint for an ADMIN or HOKAGE to update a profile.
+   
     public function updateProfileByAdmin() {
         $actor = $this->getAuthenticatedUser();
+        // The verification and condition remains the same: it must be ADMIN or HOKAGE
         if (!$actor || !in_array($actor['role'], ['ADMINISTRADOR', 'HOKAGE'])) {
             http_response_code(403);
             echo json_encode(["message" => "Você não tem permissão para esta ação."]);
@@ -60,9 +63,8 @@ class UserController {
         $data = json_decode(file_get_contents("php://input"));
         
         $user_id_to_update = $data->id;
-
-        $new_password = isset($data->senha) ? $data->senha : null;
-        $new_role = isset($data->tipo_acesso) ? $data->tipo_acesso : null;
+        $new_password = $data->senha ?? null;
+        $new_role = $data->tipo_acesso ?? null;
 
         // --- SAFETY RULE ---
         if (!empty($new_role)) {
@@ -106,8 +108,7 @@ class UserController {
         $data = json_decode(file_get_contents("php://input"));
         $this->user_model->usuario = $data->usuario;
         $this->user_model->senha = $data->senha;
-
-        $this->user_model->tipo_acesso = isset($data->tipo_acesso) ? $data->tipo_acesso : 'OPERADOR';
+        $this->user_model->tipo_acesso = $data->tipo_acesso ?? 'OPERADOR';
 
         $result_status = $this->user_model->create();
         
