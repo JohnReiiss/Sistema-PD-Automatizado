@@ -6,7 +6,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const loginForm = document.getElementById("login-form");
   const registerForm = document.getElementById("register-form");
 
-  const API_BASE_URL = "http://localhost:8000/back-end/api.php";
+  let API_BASE_URL;
+
+  if (
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+  ) {
+    API_BASE_URL = "http://localhost:8000/back-end/api.php";
+  } else {
+    API_BASE_URL = "/linhas-de-pendrive/back-end/api.php";
+  }
 
   showRegisterLink.addEventListener("click", () => {
     mainContainer.classList.add("show-register");

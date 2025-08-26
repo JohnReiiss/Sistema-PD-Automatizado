@@ -1,6 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
   const token = localStorage.getItem("authToken");
-  const API_BASE_URL = "http://localhost:8000/back-end/api.php";
+
+  let API_BASE_URL;
+
+  if (
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+  ) {
+    API_BASE_URL = "http://localhost:8000/back-end/api.php";
+  } else {
+    API_BASE_URL = "/linhas-de-pendrive/back-end/api.php";
+  }
 
   const searchForm = document.getElementById("search-form");
   const searchInput = document.getElementById("search-input");

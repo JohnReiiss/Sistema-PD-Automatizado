@@ -1,11 +1,25 @@
 <?php
 // CORS and Content-Type Headers
-header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
-header("Access-Control-Allow-Methods: POST, GET, PUT");
-header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
-include_once __DIR__ . '/controllers/UserController.php';
+$origens_permitidas = [
+    'http://localhost:8000',
+    'http://10.1.0.35'
+];
 
+// Checks if the source of the request is on our whitelist
+if (isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $origens_permitidas)) {
+    header("Access-Control-Allow-Origin: " . $_SERVER['HTTP_ORIGIN']);
+}
+
+header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
+
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    http_response_code(200);
+    exit();
+}
+
+include_once __DIR__ . '/controllers/UserController.php';
 // Includes controllers
 include_once __DIR__ . '/controllers/AuthController.php';
 include_once __DIR__ . '/controllers/ProductController.php';

@@ -1,6 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
   const token = localStorage.getItem("authToken");
-  const API_BASE_URL = "http://localhost:8000/back-end/api.php";
+  // --- Environment Adaptation Jutsu ---
+  let API_BASE_URL;
+
+  if (
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+  ) {
+    // For development environment (local)
+    API_BASE_URL = "http://localhost:8000/back-end/api.php";
+  } else {
+    // For prod environment (production)
+    API_BASE_URL = "/linhas-de-pendrive/back-end/api.php";
+  }
+  // --- End of jutsu ---
 
   // --- ELEMENTS DOM ---
   const greetingElement = document.getElementById("profile-greeting");
