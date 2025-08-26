@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ) {
     API_BASE_URL = "http://localhost:8000/back-end/api.php";
   } else {
-    API_BASE_URL = "/linhas-de-pendrive/back-end/api.php";
+    API_BASE_URL = "/MultiHub/PDA-Systen/back-end/api.php";
   }
 
   /**
